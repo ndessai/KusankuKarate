@@ -29,5 +29,13 @@
     </ion-navbar>
   </ion-header>
 <ion-content padding>
-  <h2>Welcome to KusankuKarate</h2>
+    <ion-slides autoplay=2000 effect='fade' loop=true>
+        <ion-slide *ngFor="let slide of slides">
+            <img alt="logo" src={{slide.src}}>
+        </ion-slide>
+      </ion-slides>
+      <br>
+      <p align ="center">
+          Ryukyu Kempo comes from the Ryukyu islands, one of which is Okinawa.  
+          It combines traditional karate kicks and punches as well as grappling and defensive techniques.
 </ion-content>

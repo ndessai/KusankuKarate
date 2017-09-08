@@ -8,8 +8,13 @@ import { ContactusPage } from '../contactus/contactus';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+  slides: Array<{src: string}>;
 
+  constructor(public navCtrl: NavController) {
+    this.slides = [];
+    for(var i = 1; i<=11; i++){
+      this.slides.push({src:'../../assets/Img' + i + '.jpg'});
+    }
   }
 
   openContactUsPage() {
