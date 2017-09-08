@@ -3,9 +3,71 @@
         <button ion-button menuToggle>
             <ion-icon name="menu"></ion-icon>
         </button>
-      <ion-title>Programs</ion-title>
+        <ion-title>
+            <div class='bounding-box'>
+             </div>
+           </ion-title>
+                 <ion-buttons end>
+                     <button ion-button icon-only round outline small color="primary" (click)="openHomePage()">
+                         <ion-icon name="home"></ion-icon>
+                       </button>
+                 <button ion-button icon-only round outline small color="dark" (click)="openContactUsPage()">
+                     <ion-icon name="call"></ion-icon>
+                   </button>
+                 </ion-buttons>
     </ion-navbar>
   </ion-header>
 <ion-content padding>
-
+    <div ><img src='../../assets/ProgramImg.png'></div>
+    <div >
+        <div><span >
+          ADULT PROGRAM: All fitness levels are welcome as long as you are fit to exercise.  
+          The goal is to improve physical fitness and learn basic to advanced self defense. 
+           <br><br>
+           CHILDREN'S PROGRAM: 5yrs old and up.  
+           Younger children take longer to learn the basics and we take care to help a child progress at their pace.  
+           We have two teachers and several older students as helpers.</span><br><br></div>
+    </div>
+    <h3 >
+        <div><span >Program Highlights</span>
+          <br></div>
+    </h3>
+    <div>
+        <div>
+            <ul>
+                <li><span >Self Defense: Block a kick, punch, grabbing and pushing</span></li>
+                <li><span >Kata: Hidden techniques passed down through hundreds of years.  Good for training and exercise</span></li>
+                <li><span >Sparring (optional): Orange belt and up students can spar.  It's not mandatory but needed to advance to higher level belts.</span></li>
+            </ul>
+        </div>
+    </div>
+    <h3>
+        <div>
+            Cost (Subject to change)
+        </div>
+    </h3>
+    <div >
+        <div>
+            <div><span ></span></div>
+            <ul>
+                <li><span >$75 per month for twice per week<br></span></li>
+                <li><span >$50 per month for once per week</span></li>
+            </ul>
+            <div><span ></span><span ></span></div>
+        </div>
+    </div>
+    <h3 >
+        <div>
+            Schedule
+        </div>
+    </h3>
+    <div >
+        <div>
+            
+            <ul>
+                <li><span >Friday 6pm Children 5-8, Young Adult 9-15, Adult 16-99<br></span></li>
+                <li><span>Saturday 1pm Children 5-8, Young Adult 9-15, Adult 16-99</span></li>
+            </ul>
+        </div>
+    </div>
 </ion-content>
