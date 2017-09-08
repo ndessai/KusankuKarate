@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
+import { ContactusPage } from '../contactus/contactus';
+import { HomePage } from '../home/home';
+
 /**
  * Generated class for the DoctrinePage page.
  *
@@ -22,4 +25,12 @@ export class DoctrinePage {
     console.log('ionViewDidLoad DoctrinePage');
   }
 
+
+  openContactUsPage() {
+    this.navCtrl.setRoot(ContactusPage);
+  }
+
+  openHomePage() {
+    this.navCtrl.setRoot(HomePage);
+  }
 }

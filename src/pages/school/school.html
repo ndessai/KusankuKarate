@@ -3,9 +3,67 @@
         <button ion-button menuToggle>
             <ion-icon name="menu"></ion-icon>
         </button>
-      <ion-title>School</ion-title>
+        <ion-title>
+            <div class='bounding-box'>
+             </div>
+           </ion-title>
+                 <ion-buttons end>
+                     <button ion-button icon-only round outline small color="primary" (click)="openHomePage()">
+                         <ion-icon name="home"></ion-icon>
+                       </button>
+                 <button ion-button icon-only round outline small color="dark" (click)="openContactUsPage()">
+                     <ion-icon name="call"></ion-icon>
+                   </button>
+                 </ion-buttons>
     </ion-navbar>
   </ion-header>
 <ion-content padding>
-
+        <ion-grid>
+                <ion-row>
+                  <ion-col>
+                      <h3> About Shihan Vu Nguyen</h3>
+                        <img src='../../assets/School_shihan.jpg'>
+                  </ion-col>
+                </ion-row>
+                <ion-row>
+                        <ion-col>
+                            <p>
+                                    Shihan Vu Nguyen is the founder of Kusanku Karate which is a school of Zenkoku Ryukyu Kempo Karate-Do Renmei under Hanshi Albert Geraldi. Shihan Vu began his karate training in 1998 at Dowling College under Sensei Kim and Sensei Glenn.  In 2005 the club was dissolved and he then continues his training with Kyoshi  Kenneth  LaPeter.  
+                                    <br><br>
+                                    Shihan Vu  is currently a Godan (fourth degree black belt) and continues to train to further develop his karate skills. He shares his knowledge freely with his students.  Shihan Vu loves teaching karate to children, especially those with special needs and disabilities. His classes are fun, energetic and informative.  
+                                    <br><br>
+                                    Shihan Vu’s goal is to pass down his teaching to his students in the way he was taught. The self-esteem, discipline,dedication and the confidence that he gained from his Karate training, has helped him obtained his Bachelors at Dowling College and his Masters at Long Island University.  Outside of the dojo, Shihan Vu is a software QA engineer.
+                        </ion-col>
+                </ion-row>
+                <ion-row>
+                        <ion-col>
+                                <h3>Assistant Instructors</h3>
+                              <img src='../../assets/School_Instructors.jpg'>
+                        </ion-col>
+                      </ion-row>
+                      <ion-row>
+                              <ion-col>
+                                  <p>
+                                        Peter and Matthew LaBarca received their Shodan (1st degree black belt) in October 2014 after more than five years of karate study.  Karate needs to become another part of your life, like training, education, career and building up skill sets.  Family and Faith of course remain the center of life.  You need to train every day to whatever capability you can.  
+                                        <br><br>
+                                        The guiding principles also teach that progression is slow and determined.  Currently Peter works as an embedded software engineer and Matthew is a student. 
+                              </ion-col>
+                      </ion-row>
+                      <ion-row>
+                            <ion-col>
+                                    <h3>History</h3>
+                                  <img src='../../assets/School_map.jpg'>
+                            </ion-col>
+                          </ion-row>
+                          <ion-row>
+                                  <ion-col>
+                                      <p>
+                                            Japan is made up of a series of island.  The lower west portions of the islands are called the Ryukyu islands including Okinawa.  The karate that is practiced there was taught to Seiyu Oyata through his father.  During world war two he learned a number of forms of karate including judo, kendo, and chinese martial arts.  
+                                            <br><br>
+                                            Most martial arts were practiced in public but Seiyu learned from Uhugushiku and Wakinaguri who taught him arts passed down from generation to generation and kept hidden.  Later on Seiyu studied under Shigeru Nakamura founder of Kenpo and learned the basic twelve empty hand katas.  He came to America to teach his arts in 1977 and taught Albert Geraldi, Jim Logue, Bill Wiswell and Greg Lindquest.  eiyu Oyata's karate iscalled Ryu-te which means flowing hand (like the islands).  
+                                            <br><br>
+                                            The school we study in is Zenkoku Ryukyu Kempo Karate-Do Renmei founded by Hanshi Albert Geraldi.
+                                  </ion-col>
+                          </ion-row>
+              </ion-grid>
 </ion-content>

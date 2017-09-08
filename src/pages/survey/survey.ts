@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
+import { ContactusPage } from '../contactus/contactus';
+import { HomePage } from '../home/home';
 /**
  * Generated class for the SurveyPage page.
  *
@@ -22,4 +24,12 @@ export class SurveyPage {
     console.log('ionViewDidLoad SurveyPage');
   }
 
+
+  openContactUsPage() {
+    this.navCtrl.setRoot(ContactusPage);
+  }
+
+  openHomePage() {
+    this.navCtrl.setRoot(HomePage);
+  }
 }
