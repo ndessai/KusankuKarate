@@ -12,13 +12,11 @@ import { ProgramsPage } from '../pages/programs/programs';
 import { RequirementsPage } from '../pages/requirements/requirements';
 import { SchoolPage } from '../pages/school/school';
 import { SurveyPage } from '../pages/survey/survey';
-import { TabsPage } from '../pages/tabs/tabs';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    TabsPage,
     ContactusPage,
     DoctrinePage,
     ProgramsPage,
@@ -34,7 +32,6 @@ import { TabsPage } from '../pages/tabs/tabs';
   entryComponents: [
     MyApp,
     HomePage,
-    TabsPage,
     ContactusPage,
     DoctrinePage,
     ProgramsPage,
