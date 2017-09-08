@@ -3,7 +3,29 @@
         <button ion-button menuToggle>
             <ion-icon name="menu"></ion-icon>
         </button>
-      <ion-title>Home</ion-title>
+       <!--  <div class='bounding-box'>
+        </div>
+ -->
+
+ <ion-title>
+   <!-- <img alt="logo" src='../../assets/TitleImage.png'> -->
+   <div class='bounding-box'>
+    </div>
+  </ion-title>
+
+        <!-- <div class="titleicon">
+            <div class='bounding-box'>
+              </div>
+       </div> -->
+       
+        <ion-buttons end>
+            <button ion-button icon-only round outline small color="primary" (click)="openHomePage()">
+                <ion-icon name="home"></ion-icon>
+              </button>
+        <button ion-button icon-only round outline small color="dark" (click)="openContactUsPage()">
+            <ion-icon name="call"></ion-icon>
+          </button>
+        </ion-buttons>
     </ion-navbar>
   </ion-header>
 <ion-content padding>
