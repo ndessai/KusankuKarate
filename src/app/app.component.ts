@@ -4,7 +4,6 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-import { ContactusPage } from '../pages/contactus/contactus';
 import { DoctrinePage } from '../pages/doctrine/doctrine';
 import { ProgramsPage } from '../pages/programs/programs';
 import { RequirementsPage } from '../pages/requirements/requirements';
