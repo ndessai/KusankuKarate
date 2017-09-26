@@ -13,7 +13,7 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
     this.slides = [];
     for(var i = 1; i<=11; i++){
-      this.slides.push({src:'../../assets/img/Img' + i + '.jpg'});
+      this.slides.push({src:'assets/img/Img' + i + '.jpg'});
     }
   }
 
